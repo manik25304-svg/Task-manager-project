@@ -1,2 +1,14 @@
 # Task-manager-project
-this contain a project that run in terminal of any device like mac,windows,linux. where by use of specific commands yoou can adda. task mark the task done and delete a task ,print the list of all tasks
+This contain a project related to a somple task manager made in C which saves tasks locally on machine and contains memory of what was written before it.
+
+#About
+This project was build to excercise some concepts of C:-
+- File Handling in C
+- Struct and array handling
+- Memory management
+
+#Requirements-
+- GCC compiler
+- Any machilne like Mac,Linux,Windows.
+
+
