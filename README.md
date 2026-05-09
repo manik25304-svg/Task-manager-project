@@ -13,30 +13,41 @@ This project was build to excercise some concepts of C:-
 
 
 ## compile
+
 gcc main.c -o main
 
 #How to use
 
 #add task
+
 ./main add task1
+
 ./main add "play game"
 
 #list all tasks
+
 ./main list     
+
 1|task1|not_done
 
 2|play game|not_done
 
 #mark done
+
 ./main done 1
+
 ./main list
+
 1|task1|done
 
 2|play game|not_done
 
 #delete
+
 ./main delete 1
+
 ./main list
+
 2|play game|not_done
 
 #Data storage
