@@ -116,7 +116,7 @@ void delete(int no){
         i++;
     }
     fclose(F);
-    if(no>i-1){ printf("Task %d does not exist\n", no); return; }
+    if(no>i){ printf("Task %d does not exist\n", no); return; }
     F=fopen(path,"w");
     for(int j=0;j<i;j++){
         if(j==(no-1)) continue;
