@@ -16,7 +16,7 @@ This project was build to excercise some concepts of C:-
 
 gcc main.c -o main
 
-#How to use
+## How to use
 
 #add task
 
