@@ -18,13 +18,13 @@ gcc main.c -o main
 
 ## How to use
 
-#add task
+# add task
 
 ./main add task1
 
 ./main add "play game"
 
-#list all tasks
+# list all tasks
 
 ./main list     
 
@@ -32,7 +32,7 @@ gcc main.c -o main
 
 2|play game|not_done
 
-#mark done
+# mark done
 
 ./main done 1
 
@@ -42,7 +42,7 @@ gcc main.c -o main
 
 2|play game|not_done
 
-#delete
+# delete
 
 ./main delete 1
 
@@ -50,7 +50,7 @@ gcc main.c -o main
 
 2|play game|not_done
 
-#Data storage
+# Data storage
 Tasks are saved at:
 - Linux/Mac: ~/tasklinelists.txt
 - Windows: C:\Users\username\tasklinelists.txt
