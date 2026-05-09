@@ -13,13 +13,13 @@ This project was build to excercise some concepts of C:-
 
 
 ## compile
-gcc src/main.c -o main
+gcc main.c -o main
 
 #How to use
 
 #add task
 ./main add task1
-.main add "play game"
+./main add "play game"
 
 #list all tasks
 ./main list     
